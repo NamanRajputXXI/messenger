@@ -25,7 +25,7 @@ const UserList: React.FC<UserListProps> = ({ items }) => {
         block w-full left-0
       "
     >
-      <div className="px-5">
+      <div className="px-5 ">
         <div className="flex-col">
           <div
             className="
