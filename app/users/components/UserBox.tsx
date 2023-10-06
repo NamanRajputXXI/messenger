@@ -31,7 +31,7 @@ const UserBox: React.FC<UserBoxProps> = ({ data }) => {
         onClick={handleClick}
         // TODO : w-40 below should be fixed later
         className="
-           w-full 
+           w-80 
           relative 
           flex 
           items-center 
