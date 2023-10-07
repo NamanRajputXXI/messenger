@@ -11,7 +11,6 @@ export default async function UsersLayout({
   const users = await getUsers();
   return (
     <Sidebar>
-      {/* <DesktopSidebar /> */}
       <div className="h-full">
         <UserList items={users} />
         {children}
